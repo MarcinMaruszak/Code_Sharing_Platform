@@ -1,0 +1,13 @@
+span{
+    color: green;
+    font-size: 14px;
+}
+span{
+    font-size: 14px;
+}
+pre{
+    margin-top: 2px;
+    border: solid gray 1px;
+    background-color: lightgrey;
+    max-width: 500px
+}

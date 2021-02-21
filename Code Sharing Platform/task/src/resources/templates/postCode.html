@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet"/>
+    <script type="text/javascript" th:src="@{/js/submit.js}"></script>
+</head>
+<body>
+<textarea id="code_snippet" autofocus="true" placeholder="write your code here" cols="100" rows="15"></textarea>
+<br><label for="time_restriction">Time restriction:</label><input id="time_restriction" type="text" value="0"/>
+<br><label for="views_restriction">View restriction:</label><input id="views_restriction" type="text" value="0"/>
+<br><button id="send_snippet" type="submit" onclick="send()">Submit</button>
+</body>
+</html>
