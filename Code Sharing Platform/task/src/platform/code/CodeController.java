@@ -63,7 +63,6 @@ public class CodeController {
     public @ResponseBody
     Response addCode(@RequestBody Code code) {
         code = codeRepository.save(code);
-        System.out.println(code);
         return new Response(String.valueOf(code.getUuid()));
     }
 
