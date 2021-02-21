@@ -21,6 +21,9 @@ subprojects {
         testCompile 'org.apache.httpcomponents:httpclient:4.5.9'
         testImplementation 'com.github.hyperskill:hs-test:release-SNAPSHOT'
         testImplementation 'org.jsoup:jsoup:1.13.1'
+        runtimeOnly 'com.h2database:h2'
+        implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+        implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     }
 
     sourceSets {
