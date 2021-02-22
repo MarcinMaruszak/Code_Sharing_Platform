@@ -21,19 +21,17 @@ public class CodeController {
 
     @GetMapping(path = "/code/{uuid}")
     public String getCodeHTML(@PathVariable UUID uuid, Model model) {
-        model.addAttribute("code", getCode(uuid));
-        return "getCode";
+        return codeService.getCodeHTML(uuid, model);
     }
 
     @GetMapping(path = "/code/new")
     public String addCodeHtml() {
-        return "postCode";
+        return codeService.addCodeHTML();
     }
 
     @GetMapping(path = "/code/latest")
     public String getLatestHTML(Model model) {
-        model.addAttribute("latests", getLatest());
-        return "getLatests";
+        return codeService.getLatestHTML(model);
     }
 
     //JSON-------------------------------------

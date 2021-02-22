@@ -27,6 +27,17 @@ public class CodeServiceImpl implements CodeService{
     }
 
     @Override
+    public String addCodeHTML() {
+        return "postCode";
+    }
+
+    @Override
+    public String getLatestHTML(Model model) {
+        model.addAttribute("latests", getLatest());
+        return "getLatests";
+    }
+
+    @Override
     public Code getCode(UUID uuid) {
         codeRepository.deleteAllByValidUntilBefore(LocalDateTime.now());
         Optional<Code> codeOptional = codeRepository.findByUuid(uuid);

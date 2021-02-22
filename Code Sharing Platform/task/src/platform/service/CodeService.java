@@ -11,6 +11,10 @@ public interface CodeService {
 
     String getCodeHTML(UUID uuid, Model model);
 
+    String addCodeHTML();
+
+    String getLatestHTML(Model model);
+
     Code getCode(UUID uuid);
 
     Response save(Code code);
