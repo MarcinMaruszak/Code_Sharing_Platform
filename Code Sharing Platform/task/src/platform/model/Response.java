@@ -1,4 +1,4 @@
-package platform.response;
+package platform.model;
 
 public class Response {
     private String id;

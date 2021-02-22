@@ -1,7 +1,8 @@
-package platform.code;
+package platform.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import platform.model.Code;
 
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;

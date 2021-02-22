@@ -1,4 +1,4 @@
-package platform.code;
+package platform.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;

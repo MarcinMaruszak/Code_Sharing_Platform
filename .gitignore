@@ -1,0 +1,12 @@
+# Project exclude paths
+/.gradle/
+/Code Sharing Platform/task/build/
+/Code Sharing Platform/task/out/
+/Code Sharing Platform/task/out/production/classes/
+/Code Sharing Platform/task/out/test/classes/
+/Problems/An infinite numbers supplier/out/
+/Problems/An infinite numbers supplier/out/production/classes/
+/Problems/Ternary operator/out/
+/Problems/Ternary operator/out/production/classes/
+/Problems/The address book/out/
+/Problems/The address book/out/production/classes/

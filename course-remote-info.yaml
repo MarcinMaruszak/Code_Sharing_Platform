@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/405256/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Sun, 21 Feb 2021 20:09:50 UTC
+update_date: Mon, 22 Feb 2021 20:55:14 UTC
 stages:
 - id: 692
   step: 11027
@@ -189,10 +189,6 @@ topics:
     theory_id: 7271
   - title: Inline Elements
     theory_id: 7518
-  - title: HTML attributes id and class
-    theory_id: 7527
-  - title: HTML forms
-    theory_id: 6560
   - title: Comments
     theory_id: 7502
   - title: What is CSS
@@ -201,6 +197,10 @@ topics:
     theory_id: 7418
   - title: Basic syntax
     theory_id: 7722
+  - title: HTML attributes id and class
+    theory_id: 7527
+  - title: HTML forms
+    theory_id: 6560
   - title: Comments
     theory_id: 7730
   - title: Border
