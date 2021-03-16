@@ -11,6 +11,12 @@ repositories {
     mavenCentral()
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'Code Sharing Platform.Code Sharing Platform.task.src.platform.CodeSharingPlatform'
+    }
+}
+
 sourceSets.main.resources.srcDirs = ["src/resources"]
 
 dependencies {

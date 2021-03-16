@@ -21,7 +21,7 @@ public class Code {
     @Column(columnDefinition = "Binary(16)")
     private UUID uuid;
 
-    @Column
+    @Column(columnDefinition = "CLOB")
     private String code;
 
     @Column

@@ -12,8 +12,6 @@ import java.util.UUID;
 
 public interface CodeRepository extends JpaRepository<Code, Long> {
 
-    //List<Code> findAllByViewableTrueAndValidUntilAfterOrderByDateDesc(Pageable pageable, LocalDateTime dateTime);
-
     List<Code> findTop10ByOrderByDateDesc();
 
     Optional<Code> findByUuid(UUID uuid);
